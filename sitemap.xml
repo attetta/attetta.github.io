@@ -5,97 +5,97 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://attetta.com/</loc>
-<lastmod>2019-04-07T20:39:49-00:00</lastmod>
+<lastmod>2019-04-07T21:04:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://attetta.com/archives.html</loc>
-<lastmod>2019-04-07T20:39:49-00:00</lastmod>
+<lastmod>2019-04-07T21:04:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://attetta.com/tags.html</loc>
-<lastmod>2019-04-07T20:39:49-00:00</lastmod>
+<lastmod>2019-04-07T21:04:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://attetta.com/categories.html</loc>
-<lastmod>2019-04-07T20:39:49-00:00</lastmod>
+<lastmod>2019-04-07T21:04:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/pages/about-me/</loc>
+<loc>https://attetta.com/about-me.html</loc>
 <lastmod>2019-02-01T00:00:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/articles/2019/03/02/cmake-cpp-project-types/</loc>
+<loc>https://attetta.com/cpp/cmake-cpp-project-types.html</loc>
 <lastmod>2019-03-02T12:00:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/articles/2019/01/04/markdown-examples-part-3/</loc>
+<loc>https://attetta.com/blogging/markdown-examples-part-3.html</loc>
 <lastmod>2019-01-04T12:00:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/articles/2019/01/03/markdown-examples-part-2/</loc>
+<loc>https://attetta.com/blogging/markdown-examples-part-2.html</loc>
 <lastmod>2019-01-03T12:00:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/articles/2019/01/02/markdown-examples-part-1/</loc>
+<loc>https://attetta.com/blogging/markdown-examples-part-1.html</loc>
 <lastmod>2019-01-02T12:00:00+05:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/category/blogging</loc>
+<loc>https://attetta.com/categories/blogging.html</loc>
 <lastmod>2019-01-04T12:00:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/category/cpp</loc>
+<loc>https://attetta.com/categories/cpp.html</loc>
 <lastmod>2019-03-02T12:00:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/tag/cmake</loc>
+<loc>https://attetta.com/tags/cmake.html</loc>
 <lastmod>2019-03-02T12:00:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/tag/markdown</loc>
+<loc>https://attetta.com/tags/markdown.html</loc>
 <lastmod>2019-01-04T12:00:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://attetta.com/tag/pygments</loc>
+<loc>https://attetta.com/tags/pygments.html</loc>
 <lastmod>2019-01-04T12:00:00+05:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

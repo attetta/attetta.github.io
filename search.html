@@ -9,12 +9,15 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta property="og:title" content="attetta"/>
-<meta name="twitter:title" content="attetta">
-<meta property="og:url" content="https://attetta.com" />
+<meta property="og:title" content="Search · attetta"/>
+<meta name="twitter:title" content="Search · attetta">
+<meta property="og:url" content="https://attetta.com/search.html" />
+<meta property="og:description" content="Search results for attetta blog" />
+<meta name="twitter:description" content="Search results for attetta blog">
 <meta property="og:site_name" content="attetta" />
 <meta property="og:article:author" content="kishored" />
-        <title>attetta - Articles by Matthew Devaney</title>
+        <title>Search · attetta
+</title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://attetta.com/theme/css/pygments.css" media="screen">
@@ -54,52 +57,11 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
-<div class="row-fluid">
-
-    <div class="row-fluid">
-
+<article>
+    <div class="span8 offset2">
+        <div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
     </div>
-
-    <div class="row-fluid">
-        <div class="span8 offset2">
-            <header>
-            <h1 id="recent-posts">Recent Posts <a id="allposts" href="https://attetta.com/archives">all posts</a></h1>
-            </header>
-        <div class="recent-posts">
-            <article itemscope>
-                <a href="https://attetta.com/blogging/markdown-examples-part-3.html">Markdown Examples Part 3  </a>
-                <section>
-                    posted in
-                <a href="https://attetta.com/categories#blogging-ref">blogging</a>
-                <div class="recent-posts-time">
-                <time itemprop="dateCreated" datetime="2019-01-04T12:00:00+05:30">Fri 04 January 2019</time>
-                </div>
-                </section>
-            </article>
-            <article itemscope>
-                <a href="https://attetta.com/blogging/markdown-examples-part-2.html">Markdown Examples Part 2  </a>
-                <section>
-                    posted in
-                <a href="https://attetta.com/categories#blogging-ref">blogging</a>
-                <div class="recent-posts-time">
-                <time itemprop="dateCreated" datetime="2019-01-03T12:00:00+05:30">Thu 03 January 2019</time>
-                </div>
-                </section>
-            </article>
-            <article itemscope>
-                <a href="https://attetta.com/blogging/markdown-examples-part-1.html">Markdown Examples Part 1  </a>
-                <section>
-                    posted in
-                <a href="https://attetta.com/categories#blogging-ref">blogging</a>
-                <div class="recent-posts-time">
-                <time itemprop="dateCreated" datetime="2019-01-02T12:00:00+05:30">Wed 02 January 2019</time>
-                </div>
-                </section>
-            </article>
-        </div>
-        </div>
-    </div>
-</div>
+</article>
                 </div>
                 <div class="span1"></div>
             </div>
@@ -112,14 +74,21 @@
         <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="https://github.com/Pelican-Elegant/elegant/" title="Theme Elegant Home Page">Elegant</a></li>
     </ul>
 </div>
-</footer>        <script src="//code.jquery.com/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <script>
-            function validateForm(query)
-            {
-                return (query.length > 0);
-            }
-        </script>
+</footer><script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://attetta.com/theme/tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="https://attetta.com/theme/tipuesearch/tipuesearch.min.js"></script>
+
+<script src="https://attetta.com/tipuesearch_content.js"></script>
+
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+             'mode' : 'json',
+         'show': 10,
+         'newWindow': false,
+     });
+});
+</script>
     </body>
     <!-- Theme: Elegant built for Pelican
     License : MIT -->

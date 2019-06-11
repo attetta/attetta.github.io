@@ -37,8 +37,7 @@ DEFAULT_PAGINATION = False
 # By default it will be generated to blog/source/output but we wanted them to appear in blog/output instead.
 # OUTPUT_PATH='../output'
 
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
 
 # Tell Pelican where it can find the custom theme
 THEME = 'themes/elegant'
@@ -77,7 +76,8 @@ JINJA_ENVIRONMENT = {
 PYGMENTS_STYLE = ['monokai', 'emacs']
 
 # we must tell Pelican where to look for the static media files 
-STATIC_PATHS = ['img', 'pdf']
+STATIC_PATHS = ['img', 'pdf', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # We have the option to define where Pelican should look for our blog's pages. 
 # By default Pelican expects them to be in the content/pages folder. 
